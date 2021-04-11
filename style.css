@@ -1,0 +1,74 @@
+
+body{
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 900px;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.6);
+    padding: 10px 0px;
+}
+
+header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    width: 100px;
+}
+
+.video-list div {
+    padding : 20px 0px;
+    display: flex;
+    background: #fff;
+    margin: 20px 0px;
+}
+
+main img {
+    padding: 0px;
+    margin: 0px;
+    height: 100px;
+    padding-left: 20px;
+}
+
+.video-list div div {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.video-list div div h2 {
+    padding: 0px;
+    margin: 0px;
+}
+.video-list div div p {
+    padding: 0px;
+    margin: 0px;
+    margin-top: 10px;
+}
+
+main {
+    padding: 30px 0px;
+}
+
+main iframe {
+    height: 0px;
+    transition: all .3s ease;
+}
+
+main iframe.visible {
+    height: 405px;
+}
